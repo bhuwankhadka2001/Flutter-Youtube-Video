@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
+class ImageDisplay extends StatelessWidget {
+  const ImageDisplay({super.key});
 
   @override
   Widget build(BuildContext context) {
