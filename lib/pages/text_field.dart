@@ -19,7 +19,7 @@ class MyTextField extends StatelessWidget {
         padding: const EdgeInsets.all(15),
         child: Center(
           child: Padding(
-            padding: EdgeInsets.only(bottom: 500),
+            padding: const EdgeInsets.only(bottom: 500),
             child: TextField(
               decoration: InputDecoration(
                   enabledBorder: const OutlineInputBorder(

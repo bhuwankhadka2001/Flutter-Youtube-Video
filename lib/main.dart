@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'pages/text_field.dart';
+import 'pages/image_size.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyTextField(),
+      home: ImageSize(),
     );
   }
 }
